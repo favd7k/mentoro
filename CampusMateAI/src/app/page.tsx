@@ -49,31 +49,25 @@ export default function LoginPage() {
   return (
     <main className={styles.container}>
       <div className={styles.loginCard}>
-        <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginBottom: '24px' }}>
           <Image
-            src="/assets/logo-aitu.png"
-            alt="Astana IT University"
-            width={160}
-            height={160}
+            src="/assets/Название_вместо_AI_Mentor_на_Mentoro.jpg"
+            alt="Mentoro"
+            width={200}
+            height={200}
             style={{ objectFit: 'contain' }}
             priority
           />
         </div>
         {/* Brand Header */}
         <div className={styles.brandHeader}>
-          <div className={styles.logo}>
-            <div className={styles.logoIcon}>
-              <Search size={22} />
-            </div>
-            <span className={styles.brandName}>CampusMate AI</span>
-          </div>
           <p className={styles.tagline}>Your academic assistant powered by AI</p>
         </div>
 
         {/* Welcome Section */}
         <div className={styles.welcomeSection}>
           <h2 className={styles.welcomeTitle}>Welcome Back!</h2>
-          <p className={styles.welcomeSubtitle}>Log in to continue to CampusMate AI.</p>
+          <p className={styles.welcomeSubtitle}>Log in to continue to Mentoro.</p>
         </div>
 
         {/* Error Message */}

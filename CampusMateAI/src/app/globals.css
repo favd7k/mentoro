@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Colors */
-  --background: #F4F7FE;
+  /* Colors - Mentoro Brand */
+  --background: #F8F6FC;
   --card-bg: #FFFFFF;
 
-  --primary: #4318FF;
-  --primary-hover: #3311CC;
-  --secondary: #6AD2FF;
+  --primary: #6B4BA1;
+  --primary-hover: #563A82;
+  --secondary: #9B7DC1;
 
-  --text-main: #1B2559;
-  --text-secondary: #A3AED0;
-  --text-light: #E0E5F2;
+  --text-main: #2D1B4E;
+  --text-secondary: #8B7BA8;
+  --text-light: #E8E3F0;
 
-  --border: #E0E5F2;
-  --input-bg: #F4F7FE;
+  --border: #E8E3F0;
+  --input-bg: #F8F6FC;
 
   --success: #05CD99;
   --warning: #FFB547;

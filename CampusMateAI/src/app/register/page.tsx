@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Mail, Lock, User, Search, AlertCircle } from 'lucide-react';
 import styles from '../page.module.css';
@@ -64,14 +65,18 @@ export default function RegisterPage() {
     return (
         <main className={styles.container}>
             <div className={styles.loginCard}>
+                <div style={{ display: 'flex', justifyContent: 'center', width: '100%', marginBottom: '24px' }}>
+                    <Image
+                        src="/assets/Название_вместо_AI_Mentor_на_Mentoro.jpg"
+                        alt="Mentoro"
+                        width={160}
+                        height={160}
+                        style={{ objectFit: 'contain' }}
+                        priority
+                    />
+                </div>
                 {/* Brand Header */}
                 <div className={styles.brandHeader}>
-                    <div className={styles.logo}>
-                        <div className={styles.logoIcon}>
-                            <Search size={22} />
-                        </div>
-                        <span className={styles.brandName}>CampusMate AI</span>
-                    </div>
                     <p className={styles.tagline}>Create your account</p>
                 </div>
 
@@ -129,7 +134,7 @@ export default function RegisterPage() {
                 <div className={styles.orDivider}></div>
 
                 <div style={{ textAlign: 'center', fontSize: 14 }}>
-                    Already have an account? <Link href="/" style={{ color: '#4318FF', fontWeight: 600 }}>Log in</Link>
+                    Already have an account? <Link href="/" style={{ color: '#6B4BA1', fontWeight: 600 }}>Log in</Link>
                 </div>
             </div>
         </main>

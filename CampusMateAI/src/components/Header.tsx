@@ -19,11 +19,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.titleContainer}>
-                {/* Simple logo placeholder for CampusMate */}
-                <div className={styles.brandLogo}>
-                    <Search size={24} />
-                </div>
-                <h1 className={styles.title}>CampusMate AI</h1>
+                <h1 className={styles.title}>Mentoro</h1>
             </div>
 
             <div className={styles.actions}>

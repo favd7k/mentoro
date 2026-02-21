@@ -12,7 +12,7 @@ interface Message {
 
 export const AIChat = () => {
     const [messages, setMessages] = useState<Message[]>([
-        { role: 'assistant', content: 'Hello! I am your CampusMate AI Academic Assistant. How can I help you studying today?' }
+        { role: 'assistant', content: 'Hello! I am your Mentoro Academic Assistant. How can I help you studying today?' }
     ]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -81,12 +81,12 @@ export const AIChat = () => {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <div style={{ background: '#E9E3FF', padding: 8, borderRadius: '50%', color: '#4318FF' }}>
+                <div style={{ background: '#E8E3F0', padding: 8, borderRadius: '50%', color: '#6B4BA1' }}>
                     <Bot size={20} />
                 </div>
                 <div>
-                    <div className={styles.title}>CampusMate AI</div>
-                    <div style={{ fontSize: 12, color: '#A3AED0' }}>Always here to help</div>
+                    <div className={styles.title}>Mentoro</div>
+                    <div style={{ fontSize: 12, color: '#8B7BA8' }}>Always here to help</div>
                 </div>
                 <div style={{ marginLeft: 'auto' }} className={styles.statusIndicator}>
                     Online

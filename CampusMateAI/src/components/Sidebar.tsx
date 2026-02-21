@@ -21,10 +21,10 @@ export default function Sidebar() {
         <aside className={styles.sidebar}>
             <div className={styles.logoContainer}>
                 <Image
-                    src="/assets/logo-aitu.png"
-                    alt="Astana IT University"
-                    width={190}
-                    height={50}
+                    src="/assets/Название_вместо_AI_Mentor_на_Mentoro.jpg"
+                    alt="Mentoro"
+                    width={160}
+                    height={160}
                     style={{ objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
                     priority
                 />
